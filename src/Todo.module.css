@@ -1,0 +1,14 @@
+.todo {
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.deleteButton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}

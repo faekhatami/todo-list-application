@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import styles from "./Todo.module.css";
 
 function Todo() {
   const [todos, setTodos] = useState([]);
@@ -15,7 +16,7 @@ function Todo() {
   };
 
   return (
-    <div>
+    <div className={styles.todo}>
       <h1>To-Do List</h1>
       <input
         type="text"
